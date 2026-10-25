@@ -46,7 +46,7 @@ The command prints the fully‑rendered prompt to **stdout**.
 ```mermaid
 flowchart TD
     A[CLI Invocation] --> B{Is Prompt Remote?}
-    B -- Yes --> C[HTTP(S) Fetch]
+    B -- Yes --> C["HTTP(S) Fetch"]
     B -- No --> D[Read Local File]
     C --> E[Load Template]
     D --> E[Load Template]
