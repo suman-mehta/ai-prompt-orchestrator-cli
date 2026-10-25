@@ -1,0 +1,13 @@
+{
+  "name": "ai-prompt-orchestrator-cli",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Advanced AI Prompt Orchestrator & Local Context CLI Tool",
+  "bin": {
+    "ai-prompt-orchestrator": "./src/index.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "license": "MIT"
+}
